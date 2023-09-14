@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+  
+  #hero {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20221226/pngtree-sense-of-technology-art-sense-dot-line-light-cool-cyber-minimalist-image_1496267.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  #hero p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-heading h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .section-heading p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  #about {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  .services-item {
+    border: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 40px;
+  }
+  
+  .services-item:hover {
+    background-color: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  }
+  
+  .services-item h3 {
+    font-size: 1.5rem
